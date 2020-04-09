@@ -35,7 +35,7 @@ public class AgeBasedTicketSellerTest {
 
     @Test
     public void buyTicket_AsAGrownUp_GetsTheRealDeal() {
-        var ticket = seller.buyTicketFor(kid);
+        var ticket = seller.buyTicketFor(grownUp);
         assertThat(ticket, Matchers.instanceOf(AdultRatedTicket.class));
     }
 }

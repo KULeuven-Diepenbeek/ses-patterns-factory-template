@@ -4,10 +4,10 @@ import be.kuleuven.ses.factory.tickets.AdultRatedTicket;
 import be.kuleuven.ses.factory.tickets.FamilyTicket;
 import be.kuleuven.ses.factory.tickets.TeenageTicket;
 import org.hamcrest.Matchers;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class AgeBasedTicketSellerTest {
 
@@ -16,7 +16,7 @@ public class AgeBasedTicketSellerTest {
     private final Person youngster = new Person(14);
     private final Person grownUp = new Person(22);
 
-    @Before
+    @BeforeEach
     public void setUp() {
         this.seller = new AgeBasedTicketSeller();
     }

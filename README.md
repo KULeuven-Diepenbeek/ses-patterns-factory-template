@@ -1,10 +1,10 @@
 # SES Patterns: Factory
 
-Oefening voor https://brainbaking.com/teaching/ses/factory
+Oefening voor https://kuleuven-diepenbeek.github.io/ses-course/patterns/factory/
 
 ## Technologie
 
-Dit is een [gradle project](https://brainbaking.com/teaching/ses/gradle).
+Dit is een [gradle project](https://kuleuven-diepenbeek.github.io/ses-course/dependency-management/).
 
 ## Opgave
 
